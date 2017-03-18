@@ -4,15 +4,18 @@
     xmlns:android="http://schemas.android.com/apk/res/android" >
 
     <TextView
+        android:id="@+id/tvPD"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Paired Devices"
+        android:text="@string/paired_devices"
         />
 
     <ListView
+        android:id="@+id/listView1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@+id/button"
+        android:layout_below="@+id/tvPD"
         />
     <Button
         android:id="@+id/button"
@@ -20,7 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
-        android:text="Button" />
+        android:text="@string/button" />
 
 
 </RelativeLayout>
